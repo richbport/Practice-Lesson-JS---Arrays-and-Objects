@@ -27,13 +27,14 @@ h1 {
 p {
     color: #666;
     margin-bottom: 30px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 button {
     background: #6415ff;
     color: white;
     padding: 12px 30px;
+    border: none;
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
