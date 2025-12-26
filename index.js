@@ -3,7 +3,7 @@ function openModal() {
 }
 
 function closeModal() {
-  console.log("close")
+  document.querySelector(".modal").classList.remove("modal--open");
 }
 
 document.querySelector(".open-btn").addEventListener("click", openModal);
