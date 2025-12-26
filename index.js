@@ -5,3 +5,5 @@ function openModal() {
 function closeModal() {
   console.log("close")
 }
+
+document.querySelector(".open-btn").addEventListener("click", openModal);
