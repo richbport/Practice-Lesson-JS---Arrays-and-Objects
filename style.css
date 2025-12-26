@@ -45,3 +45,10 @@ button:hover {
     background: #5011cc;
 }
 
+.modal__content {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 500px;
+}
