@@ -8,3 +8,5 @@ function closeModal() {
 
 document.querySelector(".open-btn").addEventListener("click", openModal);
 document.querySelector(".close-btn").addEventListener("click", closeModal);
+
+console.log(document.getElementById("button"))
