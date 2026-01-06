@@ -1,5 +1,5 @@
 function openModal() {
-  document.querySelector(".modal").classList.add("modal--open");
+  document.querySelector(".modall").classList.add("modal--open");
 }
 
 function closeModal() {
@@ -10,4 +10,4 @@ function closeModal() {
 document.querySelector(".open-btn").addEventListener("click", openModal);
 document.querySelector(".close-btn").addEventListener("click", closeModal);
 
-console.log(document.querySelector(".header-btn"))
+
