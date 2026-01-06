@@ -8,10 +8,6 @@ function closeModal() {
 
 
 document.querySelector(".open-btn").addEventListener("click", openModal);
-document.querySelector(".close-btn").addEventListener("click", () => {
-  ewrwer
-  dfgdgdg
-  fghfghf
-});
+document.querySelector(".close-btn").addEventListener("click", closeModal);
 
 
