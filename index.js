@@ -1,6 +1,9 @@
 function openModal() {
-  document.querySelector(".modal").classList.add("modal--open");
+  const modal = document.querySelector(".modal")
+  
+  console.log(modal)
 }
+
 
 function closeModal() {
   document.querySelector(".modal").classList.remove("modal--open");
